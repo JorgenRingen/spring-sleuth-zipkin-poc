@@ -17,7 +17,7 @@ public class BarController {
 	private BarService barService;
 
 	@GetMapping
-	public String bar(HttpServletRequest httpServletRequest) {
+	public String bar() {
 		LOGGER.info("BarController#bar received request");
 		return barService.bar();
 	}
