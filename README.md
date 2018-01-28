@@ -1,0 +1,1 @@
+Simple example showing distributed tracing with spring-sleuth and log-aggregation with zipkin. See jorgenringen.github.io for documentation.
